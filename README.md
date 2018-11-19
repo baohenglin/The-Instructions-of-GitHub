@@ -8,5 +8,5 @@
   1、点击页面右上角的头像左侧的“+”，并在下拉菜单中选择“New repository”;
   2、在仓库名称输入框中编辑仓库名称；
   3、可以写一段简短的描述；
-  4、注意勾选上“Initialize this repository with a README”。
+  4、注意勾选上“Initialize this repository with a README”;
   5、点击“Create repository”按钮即可创建完成。
