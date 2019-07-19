@@ -44,9 +44,9 @@
 
 修改author信息，以前的提交记录的contributions将丢失。那么如何解决这一问题呢？
 
-[解决方法](https://help.github.com/en/articles/changing-author-info)
+[Github官网解决方法](https://help.github.com/en/articles/changing-author-info)
 
-[stackoverflow](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi?rq=1)
+[stackoverflow解决方法](https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi?rq=1)
 
 需要特别注意的是：
 
