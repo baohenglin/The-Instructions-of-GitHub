@@ -65,6 +65,15 @@ git clone --bare https://github.com/github用户名/仓库名.git
 cd 仓库名.git
 ```
 
+比如当前仓库地址为https://github.com/baohenglin/HLBlog.git
+
+也就是：
+
+```
+git clone --bare https://github.com/baohenglin/HLBlog.git
+cd HLBlog.git
+```
+
 * (3)Copy and paste the script, replacing the following variables based on the information you gathered: (复制以下脚本并将其粘贴到终端，并将以下的变量修改为你需要的)。
 
 脚本如下：
@@ -104,6 +113,7 @@ git push --force --tags origin 'refs/heads/*'
 ```
 cd ..
 rm -rf 仓库名.git
+//rm -rf HLBlog.git
 ```
       
   
