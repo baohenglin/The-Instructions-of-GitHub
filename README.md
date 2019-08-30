@@ -122,7 +122,7 @@ rm -rf 仓库名.git
 
 ## 5. git的基本命令
 
-[Git使用详解](https://www.git-scm.com/book/zh/v2/Git-基础-远程仓库的使用)
+[⭐️⭐️⭐️⭐️⭐️Git使用详解](https://www.git-scm.com/book/zh/v2/Git-基础-远程仓库的使用)
 
 (1)查看本地分支：
 
