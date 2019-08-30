@@ -1,5 +1,5 @@
 
-## Github 基本使用
+## 1.Github 基本使用
     下面将从如何创建仓库、如何创建分支以及如何合并分支三方面介绍GitHub的基本使用。[Github基本使用](https://guides.github.com/activities/hello-world/)
 
     1、如何创建新的仓库？
@@ -32,15 +32,15 @@
     
     以上就是如何在GitHub上创建仓库、创建分支、合并分支代码的基本操作步骤。
         
-## 创建与"README.md"同级的文件夹
+## 2.创建与"README.md"同级的文件夹
 
     如何建立与"README.md"同级的文件夹?点击“Create new file”，然后输入文件夹名称，此时在输入的名称后面加上"/"，然后再输入下一级文档的名称进行创建保存。注意一定要要在文件夹名称后面加上‘/’，否则创建出来的不是文件夹。这样就可以在该文件夹路径下上传.md的文档了。
    
-## 删除仓库的影响 
+## 3.删除仓库的影响 
 
 删除“repositories”中的某个仓库之后,该仓库对应的commit记录也将一同被删除掉。
 
-## Changing author info
+## 4.Changing author info
 
 修改author信息，以前的提交记录的contributions将丢失。那么如何解决这一问题呢？
 
@@ -119,6 +119,47 @@ cd ..
 rm -rf 仓库名.git
 //rm -rf HLBlog.git
 ```
-      
-  
+
+## 5. git的基本命令
+
+(1)查看本地分支：
+
+```
+git branch
+```
+
+(2)查看远程所有分支：
+
+```
+git branch -a
+```
+
+(3)切换到developBranch分支：
+
+```
+git checkout developBranch
+```
+
+## 6.git push时报错“! [rejected]        master -> master (non-fast-forward)”的解决方法：
+
+(1)把远程仓库和本地同步，消除差异。终端命令如下：
+
+```
+git pull origin master --allow-unrelated-histories 
+```
+
+(2)重新执行如下命令：
+
+```
+git add .
+git commit -m '提交描述'
+```
+
+(3)重新push
+
+```
+git push origin master
+```
+
+
   
