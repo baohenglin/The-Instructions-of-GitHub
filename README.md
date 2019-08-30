@@ -122,6 +122,8 @@ rm -rf 仓库名.git
 
 ## 5. git的基本命令
 
+[Git使用详解](https://www.git-scm.com/book/zh/v2/Git-基础-远程仓库的使用)
+
 (1)查看本地分支：
 
 ```
@@ -138,6 +140,58 @@ git branch -a
 
 ```
 git checkout developBranch
+```
+
+(4)查看当前文件状态
+
+```
+git status
+```
+(5)将修改信息放到暂存区：
+
+```
+git add “修改的文件”
+```
+
+(6)将所有修改放到暂存区：
+
+```
+git add .
+```
+
+(7)提交
+
+```
+git commit -m 'commitMsg'
+```
+
+(8)查看尚未暂存的文件更新了哪些部分。git diff 本身只显示尚未暂存的改动，而不是自上次提交以来所做的所有改动。
+
+```
+git diff
+```
+
+(9)若要查看已暂存的将要添加到下次提交里的内容，可以用 git diff --cached 命令。Git 1.6.1 及更高版本还允许使用 “git diff --staged”
+
+```
+git diff --cached
+```
+(10)查看所有提交历史。
+
+```
+git log 
+```
+
+(11)查看最近两次的提交
+
+```
+git log -2
+```
+
+(12)查看Git当前的配置详情：
+
+```
+git config --list
 ```
 
 ## 6.git push时报错“! [rejected]        master -> master (non-fast-forward)”的解决方法：
@@ -162,4 +216,4 @@ git push origin master
 ```
 
 
-  
+
