@@ -221,5 +221,19 @@ git commit -m '提交描述'
 git push origin master
 ```
 
+# 7. 将本地代码文件上传到GitLab的终端命令
+
+```
+//Push an existing folder
+cd existing_folder
+git init
+git remote add origin http://192.168.101.107:82/app/ios/thepeopledaily.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+
+
 
 
