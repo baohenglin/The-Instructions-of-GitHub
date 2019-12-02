@@ -224,13 +224,38 @@ git push origin master
 # 7. 将本地代码文件上传到GitLab的终端命令
 
 ```
-//Push an existing folder
+// Git global setup
+git config --global user.name "baohenglin"
+git config --global user.email "baohenglin@unioncast.cn"
+```
+
+```
+// Push an existing folder
 cd existing_folder
 git init
 git remote add origin http://192.168.101.107:82/app/ios/thepeopledaily.git
 git add .
 git commit -m "Initial commit"
 git push -u origin master
+```
+
+```
+// Create a new repository
+git clone http://192.168.101.107:82/app/ios/thepeopledaily.git
+cd thepeopledaily
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+```
+
+```
+// Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin http://192.168.101.107:82/app/ios/thepeopledaily.git
+git push -u origin --all
+git push -u origin --tags
 ```
 
 
