@@ -271,7 +271,12 @@ git push -u origin --all
 git push -u origin --tags
 ```
 
+# 8 如何设置Git的本地代理访问外网（通过外网访问 Git）
 
+```
+git config --global http.proxy 'http://user_name:password@http_proxy_ip:port'
+//git config --global http.proxy 'http://zhangsan:abcd1234@192.168.20.1:8080'
+```
 
 
 
