@@ -213,6 +213,18 @@ git log -p -5
 git config --list
 ```
 
+(15)撤销工作空间的改动代码（撤销commit且撤销add）
+
+```
+git reset --hard HEAD^
+```
+
+(16)只撤销commit，不撤销git add，（不撤销工作空间的改动代码）
+
+```
+git reset --soft HEAD^
+```
+
 ## 6.git push时报错“! [rejected]        master -> master (non-fast-forward)”的解决方法：
 
 (1)把远程仓库和本地同步，消除差异。终端命令如下：
