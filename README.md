@@ -110,6 +110,18 @@ git reset --soft HEAD^
 git fetch
 ```
 
+(18)删除远程分支 branchX
+
+```
+git push origin --delete branchX
+```
+
+(19)删除本地分支 branchX
+
+```
+git branch -d branchX
+```
+
 ## 2.Github 基本使用
     下面将从如何创建仓库、如何创建分支以及如何合并分支三方面介绍GitHub的基本使用。[Github基本使用](https://guides.github.com/activities/hello-world/)
 
